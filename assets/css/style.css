@@ -217,6 +217,10 @@ padding: 15px 85px 10px 60px;
     color: #fff;
     font-weight: 500;
     border-radius: 30px;
+    transition: .5s;
+}
+.home2-btn:hover{
+    background-color: #6e6e6e;
 }
 
 /* .home2-img-box .home2-img{
