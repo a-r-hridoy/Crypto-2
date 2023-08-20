@@ -1,0 +1,1804 @@
+/* BASIC SETUP */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@500&family=Raleway:wght@400;500;700&family=Roboto:wght@300;700&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff url(../img/preloader/844.gif) no-repeat center;
+    z-index: 99999;
+}
+
+
+/* Bassic css start */
+body{
+    min-height: 100vh;
+}
+
+h1, .h1 {
+    font-size: 50.4px;
+}
+ 
+/* Bassic css end */
+
+/* navbar-start */
+.navbar{
+padding: 15px 85px 10px 60px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 0 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #E4B350;
+}
+.navbar-toggler:hover{
+    background-color:#fff ;
+    transform: none;
+    box-shadow:none;
+
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.nav-btn{
+   padding: 10px 30px;
+   font-weight: 500;
+   border-radius: 15px;
+   margin-left: 20px; 
+   font-weight: 600;
+   transition: .5s;
+   border: none;
+    background-color: #E4B350;
+}
+.nav-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-brand h5{
+    font-size: 38px;
+    font-weight: 700;
+}
+.navbar-brand h5 span{
+    color: #E4B350;
+}
+
+/* navbar-end */
+
+/* home-section-start */
+.home-section{
+    padding: 180px 0;
+    background: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/crypto-bg-234.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home-content h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4CCA8D;
+    font-weight: 700;
+}
+.home-content h5 i{
+    color: #facd60;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home-content h2 {
+    font-size: 68px;
+    font-weight: 700;
+    padding: 10px 115px 10px 0px;
+}
+.home-content p{
+    font-size: 20px;
+    color: #858585;
+    padding: 10px 115px 10px 0px;
+}
+.home-btn{
+    padding: 18px 50px;
+    background-color: #E4B350;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: .5s;
+}
+.home-btn:hover{
+    background-color: #aa8a4a;
+}
+.home-img-box{
+    position: relative;
+}
+.home-img-box img{
+    /* width: 600px; */
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0%   {top: 30px;}
+    50%  {top: 0px}
+    100% {top: 30px;}
+}
+.home-img-box .animated-img{
+    position: absolute;
+}
+.home-img-box .animated-img1{
+    width: 60px;
+    top: 25px;
+    left: 0;
+}
+.home-img-box .animated-img2{
+    width: 70px;
+    top: -60px;
+    left: 25%;
+}
+.home-img-box .animated-img3 {
+    width: 100px;
+    top: -20px;
+    right: 25%;
+}
+.home-img-box .animated-img4 {
+    width: 45px;
+    top: -20px;
+    right: 0;
+}
+/* home-section-end */
+
+/* feature-section-start */
+.feature-section {
+    padding: 80px 0px;
+}
+.feature-img img{
+    max-width: 100px;
+    margin-right: 10px;
+}
+.feature-content h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.feature-content p{
+    font-size: 16px;
+    padding: 0px 110px 0px 0;
+    color: #858585;
+}
+/* feature-section-end */
+
+
+
+/* home2-section-start */
+.home2-section{
+    padding: 180px 0;
+    background: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/crypto-bg-234.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home2-content h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4CCA8D;
+    font-weight: 700;
+}
+.home2-content h5 i{
+    color: #facd60;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home2-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 115px 10px 0px;
+}
+.home2-content p{
+    font-size: 20px;
+    color: #858585;
+    padding: 10px 115px 10px 0px;
+}
+.home2-btn{
+    padding: 18px 50px;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.home2-img-box{
+    position: relative;
+}
+.home2-img-box .home2-img{
+    width: 380px;
+    animation: mymove 5s infinite;
+}
+
+.animated-img02{
+    position: absolute;
+    width: 120px;
+}
+.animated-img5 {
+    bottom: 150px;
+    left: 100px;
+    width: 150px;
+}
+.animated-img6 {
+    top: -5px;
+    right: 161px;
+    width: 80px;
+}
+.animated-img7 {
+    top: -20px;
+   left: 120px;
+}
+.animated-img8 {
+    bottom: 0;
+    right: 100px;
+    width: 160px;
+}
+.animated-img9 {
+    top: 143px;
+    right: 60px;
+    width: 50px;
+}
+/* home-section-end */
+/* sponsar-section-start */
+.section-sponsors {
+    padding: 80px 0px;
+}
+.sponsors-img{
+    width: 100%;
+}
+
+.sponsors-img img{
+    max-width: 150px;
+}
+/* sponsar-section-end */
+
+/* section-work-start */
+.section-work{
+    padding: 100px 0;
+    background: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/crypto-bg-234.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-top-content{
+    text-align: center;
+}
+.work-top-content h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #3FBD96;
+    text-transform: uppercase;
+}
+.work-top-content h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.work-top-content p{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 0;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #9c9c9c;
+    font-size: 18px;
+}
+.work-box{
+    border-radius: 20px!important;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.work-img img{
+    max-width: 150px;
+    padding: 10px 0;
+}
+.work-content h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.work-content P{
+    font-size: 16px;
+    padding: 10px 25px ;
+    color: #9c9c9c;
+}
+/* section-work-end */
+
+/* section-learn-start */
+.section-learn{
+    padding: 50px 0; 
+    background: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/crypto-bg-234.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.learn-content h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3FBD96;
+}
+.learn-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 87px 0 0px;
+}
+.learn-content p{
+    font-size: 20px;
+    color: #858585;
+    padding: 0px 80px 0 0px;
+}
+.learn-content h4{
+    font-size: 20px;
+    color: #E4B350;
+    transition: .5s;
+}
+.learn-content h4:hover{
+    color: #000;
+}
+
+.learn-bg{
+    padding: 290px 0px 290px 0px;
+    background-image: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/golden-coin-with-ethereum-dollar-sign-balance-scalebusiness-finance-currency-exchange-conceptcryptocurrencyblockchain-technologyminimal-style3d-rendering-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50PX 0;
+    border-radius: 40px 40px 40px 40px;
+}
+.learn-video a{
+    padding: 30px 30px ;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+.learn-video a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* section-learn-end */
+
+
+
+
+/* home3-section-start */
+.home3-section{
+    padding: 100px 0; 
+}
+.home3-content h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4CCA8D;
+    font-weight: 700;
+}
+.home3-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px 100px 10px 0px;
+}
+.home3-content p{
+    font-size: 20px;
+    color: #858585;
+    padding: 10px 115px 10px 0px;
+}
+.learn-list{
+    padding: 0;
+}
+.learn-list li {
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.learn-list li i{
+    color: #3FBD96;
+}
+.home3-img-box{
+    position: relative;
+}
+.home3-img-box img{
+    animation: mymove3 5s infinite;
+}
+/* @keyframes mymove3 {
+    0%   {top: 30px;}
+    50%  {top: 0px}
+    100% {top: 30px;}
+} */
+.animated-img03{
+    position: absolute;
+}
+.animated-img10 {
+    top: 200px;
+    left: 0px;
+    width: 70px;
+}
+.animated-img11 {
+    width: 100px;
+    top: 17px;
+    left: 180px;
+}
+/* home3-section-end */
+
+
+
+/* testimonial-section-start */
+.testimonial-section{
+    padding: 100px 0;
+    background: url(https://toka.b-cdn.net/wp-content/uploads/2022/03/bg-nft-234s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.testimonial-content h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4CCA8D;
+    font-weight: 700;
+}
+.testimonial-content h5 i{
+    color: #facd60;
+    font-weight: 500;
+    font-size: 20px;
+}
+.testimonial-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 50px 10px 0px;
+}
+.testimonial-content p{
+    font-size: 20px;
+    color: #858585;
+    padding: 10px 115px 10px 0px;
+}
+.testimonial-btn{
+    padding: 15px 40px;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: .5s;
+}
+.testimonial-btn:hover{
+    background-color: #6e6e6e;
+}
+.testimonial-img img{
+    max-width: 350px ;
+    text-align: center;
+}
+.testimonial-box{
+    padding: 35px 30px!important;
+    border-radius: 20px!important;
+    margin-top: 100px;
+}
+.testimonial-box-content i{
+    color: #E4B350;
+    padding: 5px 0;
+}
+
+.testimonial-box-content h4{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5c5a5a;
+    padding: 25px 100px 25px 0px;
+
+}
+.happy-clients{
+    justify-content: space-between;
+}
+.happy-clients h5{
+    font-size: 18px;
+}
+.happy-clients img{
+    max-width: 50px;
+    border-radius: 50%;
+}
+/* testimonial-section-end */
+
+
+/* section-faq-start */
+.section-faq{
+    padding: 100px 0;
+    background: url(	https://toka.b-cdn.net/wp-content/uploads/2022/02/bg-rypto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.faq-top-content{
+    text-align: center;
+    padding: 30px 0;
+}
+.faq-top-content h5{
+    color: #3FBD96;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.faq-top-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.faq-top-content p{
+    max-width: 550px;
+    margin: auto;
+    font-size: 20px;
+    color: #6e6e6e;
+    padding: 10px 0;
+}
+.accordion-item{
+    border: none;
+    background-color: transparent;
+}
+.accordion-button{
+    font-family: "Raleway", Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.accordion-button:hover{
+    color: #E4B350;
+}
+.accordion-button:focus{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, -0.75);
+}
+.accordion-item{
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-body{
+    border-bottom-color: #F0F1F4;
+    color: #6C6C6E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.accordion-button:not(.collapsed) {
+    background-color:transparent;
+
+}
+/* section-faq-end */
+
+/* section-footer-start */
+.section-footer{
+    padding: 80px 0px 20px 0;
+    background: url(	https://toka.b-cdn.net/wp-content/uploads/2022/02/bg-rypto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-content h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-content h2 span{
+    color: #E4B350;
+}
+.footer-content p{
+    font-size: 16px;
+    padding: 10px 0;
+    color: #5c5a5a;
+}
+.footer-list li{
+    font-size: 18px;
+    line-height: 2.5;
+    font-size: 15px;
+    color: #5c5a5a;
+}
+.footer-list p i{
+    color: #3FBD96;
+}
+.footer-title i{
+    color: #3FBD96;
+}
+
+.form-wrap {
+    padding: 20px 0; 
+}
+
+.form-wrap p{
+    padding: 15px 0;
+    color: #5c5a5a;
+}
+.form-wrap input{
+    border: none;
+    background-color: #ddd;
+    padding: 15px 10px;
+    border-radius: 50px;
+}
+.footer-btn{
+    border: none;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3FBD96;
+    border-radius: 50px;
+    transition: .5s;
+}
+.footer-btn:hover{
+    background-color: #24614d;
+}
+
+/* section-footer-end */
+
+@media screen and (max-width: 992px){  
+    .navbar-toggler{    
+        border:2px solid #E4B350;
+    }
+    .navbar .container {
+        position: relative;
+    }
+    .navbar {
+        padding: 15px 25px 10px 20px;
+    }
+    .nav-btn {
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+    .home-content h2 {
+        font-size: 40px;
+        padding: 10px 50px 10px 0px;
+    }
+    .home-content p {
+        font-size: 18px;
+        padding: 10px 25px 10px 0px;
+    }
+    .home-btn {
+        padding: 15px 40px;
+    }
+    .feature-content p {
+        padding: 0px;
+    }
+    .work-content P {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    /* .animated-img6 {
+        width: 125px;
+    }
+    .animated-img7{
+        left: 300px;
+    }
+    .animated-img9 {
+       display: none;
+    }
+    .animated-img5 {
+        top: 190px;
+        left: 35px;
+        width: 130px;
+    }
+    .animated-img8 {
+        width: 150px;
+        top: 390px;
+        left: 270px;
+    } */
+    .home2-content h2 {
+        font-size: 46px;
+        padding: 10px 0px 10px 0px;
+    }
+    .home2-content p {
+        font-size: 18px;
+        padding: 12px 0px;
+    }
+    .home2-btn {
+        padding: 15px 40px;
+    }
+    .learn-content h2 {
+        font-size: 35px;
+        padding: 0px;
+    }
+    .learn-content p {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .learn-bg {
+    padding: 230px 0px 230px 0px;
+    }
+    /* .animated-img10 {
+        top: 160px;
+        left: 10px;
+        width: 70px;
+    }
+    .animated-img11 {
+        width: 90px;
+        left: 190px;
+    } */
+    .home3-content h2 {
+        font-size: 40px;
+        padding: 10px 40px 10px 0px;
+    }
+    .home3-content p {
+        font-size: 19px;
+        padding: 10px 45px 10px 0px;
+    }
+    
+    .testimonial-img img{
+        max-width: 300px;
+    }
+    .testimonial-content h2 {
+        font-size: 48px;
+    }
+    .testimonial-box-content h4 {
+        padding: 25px 0px 25px 0px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .footer-btn{
+        margin-top: 5px;
+    }
+    
+}
+@media screen and (max-width: 991px){
+    .navbar-text {
+        position: absolute;
+        right: 80px;
+        top: 0;
+    }
+    
+    .navbar-toggler{    
+        border:2px solid #E4B350;
+    }
+    .navbar .container {
+        position: relative;
+    }
+}
+@media screen and (max-width: 820px){
+    /* .animated-img6 {
+        width: 110px;
+        left: 10px;
+        top: -20px;
+    }
+    .animated-img7 {
+        left: 230px;
+    }
+    .animated-img5 {
+        left: -23px;
+    }
+    .animated-img8 {
+        width: 125px;
+        left: 200px;
+    } */
+    .home2-content h2 {
+        font-size: 35px;
+    }
+    .home2-content h5 {
+        font-size: 15px;
+    }
+    .home2-content p {
+        font-size: 16px;
+    }
+    .testimonial-content h2 {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 10px 0px;
+    }
+}    
+
+@media screen and (max-width: 768px){
+    /* .navbar-text {
+        position: absolute;
+        right: 80px;
+        top: 0;
+    }
+    
+    .navbar-toggler{    
+        border:2px solid #E4B350;
+    }
+    .navbar .container {
+        position: relative;
+    } */
+    .home-content h5 {
+        font-size: 12px;
+    }
+    .home-content h2 {
+        font-size: 45px;
+        padding: 10px 26px 10px 0px;
+    }
+    .home-content p {
+        font-size: 18px;
+    }
+    .home-btn {
+        padding: 15px 40px;
+    }
+    .feature-img img {
+        max-width: 80px;
+    }
+    .feature-content p {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    /* .animated-img6 {
+        width: 95px;
+        left: 20px;
+    }
+    .animated-img7 {
+        width: 70px;
+        top: -20px;
+        left: 215px;
+    }
+    .animated-img9 {
+        left: 240px;
+        width: 50px;
+    }
+    .animated-img5 {
+        left: 8px;
+        width: 105px;
+        top: 172px;
+    }
+    .animated-img8 {
+        width: 120px;
+        top: 340px;
+        left: 200px;
+    } */
+    .home2-section {
+        padding: 180px 0;
+    }
+    .home2-content h2 {
+        font-size: 35px;
+    }
+    .home2-content h5 {
+        font-size: 13px;
+    } 
+    .home2-content p {
+        font-size: 16px;
+    }
+    .home2-btn {
+        padding: 10px 30px;
+    }
+    .work-content P {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .learn-content h2 {
+        font-size: 25px;
+        padding: 0px;
+    }
+    .learn-content h4{
+        font-size: 16px;
+    }
+    .learn-bg {
+    padding: 170px 0px 170px 0px;
+    }
+    /* .home3-img-box img {
+        max-width: 370px;
+    }
+    .animated-img10 {
+        top: 140px;
+        width: 50px;
+    }
+    .animated-img11 {
+        width: 80px;
+    } */
+    .home3-content h2 {
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+    .home3-content p {
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+    .learn-list li {
+        padding: 6px 0;
+    }
+    .testimonial-img img {
+        max-width: 290px;
+    }
+    .testimonial-content p {
+        font-size: 18px;
+        color: #858585;
+        padding: 10px 70px 10px 0px;
+    }
+    .testimonial-content h2 {
+        font-size: 35px;
+    }
+    .testimonial-box{
+        margin: 20px 0;
+    }
+    
+    .faq-top-content h2 {
+        font-size: 38px;
+    }
+    .faq-top-content p{
+        font-size: 16px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .section-footer {
+        padding: 80px 50px;
+    }
+    .footer-btn{
+        margin-top: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 576px){
+    .home-img-box{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .home2-section{
+        padding: 100px 0;
+    }
+    .home2-img-box{
+        padding: 20px 0 ;
+    }
+    /* .animated-img7 {
+        top: 10px;
+        left: 290px;
+    }
+    .animated-img6 {
+        left: 110px;
+        top: -10px;
+    }
+    .animated-img8 {
+        left: 300px;
+    }
+    .animated-img5 {
+        left: 95px;
+        top: 194px;
+    } */
+    
+    ol, ul {
+        padding-left: 0rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-text {
+        position: absolute;
+        right: 60px;
+        top: 0;
+    }
+    .nav-btn {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+
+    .home-img-box{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .home-content h2 {
+        padding: 10px 0px;
+    }
+    /* .animated-img5 {
+        left: 15px;
+    }
+    .animated-img6 {
+        left: 15px;
+    }
+    .animated-img7 {
+        left: 200px;
+    }
+    .animated-img8 {
+        left: 180px;
+    } */
+    .home2-content h2 {
+        font-size: 29px;
+    }
+    .section-sponsors {
+        padding: 80px 0px 80px 0px;
+    }
+    .learn-content h2 {
+        font-size: 24px;
+        padding: 15px 0;
+    }.home3-content h2 {
+        font-size: 27px;
+    }
+    .home3-img-box img {
+        max-width: 300px;
+    }
+    .testimonial-img img {
+        max-width: 220px;
+    }
+    .testimonial-content h2 {
+        font-size: 30px;
+    }
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+    
+                          /*--------------about-section---------------*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* about-section-start */
+.about-section{
+    padding: 180px 0;
+}
+.about-top-content h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3FBD96;
+    text-align: center;
+}
+.about-top-content h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.about-top-content p{
+    font-size: 17px;
+    max-width: 500px;
+    margin: auto;
+}
+.about-img {
+    text-align: center;
+    padding: 50px 0;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.about-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3FBD96;
+    padding: 10px 0;
+}
+
+.about-content h3{
+    font-size: 40px;
+    padding: 10px 115px 10px 0px;
+    font-weight: 600;
+}
+.about-content p{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #696868;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.transparency-box{
+    margin-top: 50px;
+    text-align: center;
+}
+.transparency-img img{
+    max-width: 80px;
+    padding: 25px 0;
+}
+.transparency-content h4{
+    font-weight: 600;
+    font-size: 24px;
+}
+.transparency-content p{
+    max-width: 300px;
+    margin: auto;
+}
+/* about-section-end */
+
+/* our-work-section-start */
+.our-work-seciton{
+    padding: 100px 0;
+}
+.big-img-box{
+    overflow: hidden;
+}
+.big-img-box img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.big-img-box img:hover{
+    transform: scale(1.2);
+}
+.small-img-box {
+    overflow: hidden;
+}
+.small-img-box img{
+    height: 250px;
+    width: 100%;
+    margin: 10px 10px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.small-img-box img:hover{
+    transform: scale(1.1);
+}
+.our-work-content h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0;
+    color: #3FBD96;
+}
+.our-work-content h2{
+    font-size: 45px;
+    padding: 10px 85px 10px 0px;
+    font-weight: 600;
+}
+.our-work-content p{
+    padding: 10px 0;
+    font-size: 17px;
+    color: #696868;
+    line-height: 2;
+    font-weight: 500;
+}
+.our-work-btn{
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .5s;
+    border: none;
+     background-color: #36BA90;
+}
+.our-work-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.our-work-btn:hover{
+    background-color: #299372;
+}
+/* our-work-section-end */
+
+
+
+.counter-wrapper {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.counter-item {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.count-wrapper {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.count-wrapper h4{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.count-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #858585;
+}
+/* beginners-section-start */
+
+.beginners-bg{
+    padding: 250px 0px 250px 0px;
+    background-image:url("https://toka.b-cdn.net/wp-content/uploads/2022/03/minimal-background-investment-candlestick-chart-trading.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50PX 0;
+    border-radius: 40px 40px 40px 40px;
+}
+.beginners-video a{
+    padding: 30px 30px ;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+.beginners-video a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.beginners-content h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0;
+    color: #3FBD96;
+}
+.beginners-content h2{
+    font-size: 45px;
+    padding: 10px 85px 10px 0px;
+    font-weight: 600;
+}
+.beginners-content p{
+    padding: 10px 0;
+    font-size: 17px;
+    color: #696868;
+    line-height: 2;
+    font-weight: 500;
+}
+.beginners-btn {
+    padding: 15px 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: 600;
+   border: 1px solid #000;
+   transition: .5s ;
+}
+.beginners-btn a{
+    text-decoration: none;
+    color: #000;
+}
+.beginners-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+/* beginners-section-end */
+
+/* team-section-start */
+.team-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .team-member img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .team-member h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .team-member p {
+    font-size: 18px;
+    color: #8a8686;
+    font-weight: 500;
+  }
+  /* team-section-end */
+
+  /* elementor-section-start */
+  .elementor-section{
+    padding: 80px 0;
+  }
+  .elemetor-img img{
+    width: 100%;
+    height: 400px;
+  }
+
+  /* elementor-section-end */
+  
+
+  /* section-sponsors-2-start */
+  .sponsors-top-content h5{
+    font-size: 18px;
+    color: #36BA90;
+    text-align: center;
+    font-weight: 600;
+  }
+  .sponsors-top-content h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .sponsors-top-content p{
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 80px 0;
+    color: #8a8686;
+    font-weight: 500;
+  }
+  
+  /* section-sponsors-2-end */
+  
+  
+@media screen and (max-width: 992px){
+    .small-img-box img{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-content h3 {
+        padding: 10px 0;
+    }
+    .about-content p {
+        padding: 0;
+        font-size: 16px;
+    }
+    .big-img-box img {
+        height: 300px;  
+    }
+    .small-img-box img {
+        height: 200px;
+    }
+    .our-work-content h2 {
+        font-size: 38px;
+        padding: 10px 0px;
+    }
+    .our-work-content p {
+        padding: 10px 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .beginners-bg {
+        padding: 200px 0px 200px 0px;
+    }
+    .beginners-content h2 {
+        font-size: 34px;
+        padding: 10px 0px;
+    }
+    .beginners-content p {
+        padding: 10px 0;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .beginners-content h5 {
+         padding: 5px 0;
+    }
+    .beginners-btn {
+        padding: 15px 35px;
+    }
+    .sponsors-top-content h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .team-member img {
+        width: 75%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 320px){
+    .about-section {
+        padding: 120px 0;
+    }
+    .about-top-content h2 {
+        font-size: 29px;    
+    }
+    .about-content h3{
+        font-size: 27px;
+    }
+    .big-img-box img {
+        height: 220px;
+    }
+    .small-img-box img {
+        height: 150px;
+    }
+}
+  
+/* ----------------------------------------------------------------------------------------------- */
+    
+                          /*--------------team-section---------------*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.team-top-content{
+    padding: 50px 0;
+    text-align: center;
+}
+.team-top-content h5{
+    font-size: 16px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: #36BA90;
+}
+.team-top-content h2{
+    font-size: 43px;
+    font-weight: 600;
+    /* line-height: 1.5; */
+}
+
+.team-top-content p{
+    font-size: 18px;
+    max-width: 550px;
+    margin: auto;
+    font-weight: 500;
+    color: #8a8686;
+    line-height: 1.9;
+}
+.team-member{
+    margin-top: 50px;
+}
+.team-member i{
+    font-size: 20px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: .5s ;
+}
+.team-member i:hover{
+    background-color: #E4B350;
+    color: #000;
+}
+.team-content{
+    background-image: url(https://toka.b-cdn.net/wp-content/uploads/2022/02/crypto-bg-234.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 180px 50px;
+    border-radius: 20px;
+}
+.team-content h3{
+    font-weight: 600;
+}
+
+.team-content h5 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E6B350;
+    line-height: 1.9;
+    font-weight: 600;
+    transition: .5s;
+}
+.team-content h5 a:hover{
+    color: #000;
+}
+
+@media screen and (max-width: 320px){
+    .team-top-content h2 {
+        font-size: 30px;
+    }
+    .team-top-content p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .team-member i {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+  
+  /* ----------------------------------------------------------------------------------------------- */
+    
+                          /*--------------blog-section-start---------------*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* blog-section-start */
+.blog-section{
+    padding: 150px 0;
+}
+.blog-top-content h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 50px 0;
+}
+.card{
+    border: none;
+}
+.card img{
+    height: 20rem;
+}
+.card-body{
+    border: none;
+}
+.card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.card-body h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #8a8686;
+}
+.card-body h5::before{
+    content: '|';
+    width: 8px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    color: #36BA90;
+    margin-right: 0.25rem;
+}
+.card-body p{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #8a8686;
+}
+.post-meta li{
+    margin: 20px ;
+    font-size: 18px;
+    color: #000;
+}
+
+.post-meta li i{
+    color: #36BA90;
+    margin-right: 10px;
+}
+
+/* blog-section-end */
+
+@media screen and (max-width: 768px){
+    .card img {
+        height: 18rem;
+    }
+    .post-meta li {
+        margin: 0px;
+        font-size: 14px;
+    }
+    .card-body h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .blog-section {
+        padding: 100px 0;
+    }
+    
+    .blog-top-content h2 {
+        font-size: 35px;
+        padding: 20px 0;
+    }
+    .post-meta li {
+        margin: 10px;
+        font-size: 16px;
+    }
+}
+/* ----------------------------------------------------------------------------------------------- */
+    
+                          /*--------------contact-section-start---------------*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* contact-section-start */
+.contact-section{
+    padding: 150px 0 30px 0;
+    background-image: url(https://toka.b-cdn.net/wp-content/uploads/2022/03/bg-nft-234s.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 1; */
+}
+.contact-top-content{
+    text-align: center;
+}
+.contact-top-content h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #36BA90;
+    text-transform: uppercase;
+}
+.contact-top-content h2{
+    font-size: 43px;
+    font-weight: 600;
+}
+.contact-top-content p{
+    max-width: 500px;
+    margin: auto;
+    color: #8a8686;
+    line-height: 2;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.contact-box-1{
+    /* max-width: 600px; */
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-box-1 h3{
+    font-weight: 600;
+}
+ol, ul{
+    padding-left: 0;
+}
+.cotact-list li{
+    margin: 20px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.cotact-list li i{
+    color: #36BA90;
+    margin-right: 10px;
+}
+
+.contact-box-2{
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contact-box-2 h3{
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.contact-box-3 {
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-box-3 h3{
+    font-weight: 600;
+  }
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input{
+    border: 1px solid #e4e5e7;
+    background: white;
+    color: #6C6C6E;
+    padding: 13px;
+    border-radius: 15px;
+}
+.form-group input:hover{
+    border: 1px solid #36BA90;
+}
+.form-group label{
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.form-group textarea:hover{
+        border: 1px solid #36BA90;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #e4e5e7;
+}
+.contact-btn{
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    transition: .5s;
+    border: none;
+     background-color: #36BA90;
+}
+.contact-btn:hover{
+    background-color: #24614d;
+}
+/* contact-section-end */
+
+/* contact-about-section-start */
+.contact-about-section{
+    padding: 80px 0;
+}
+.transparency-content h6{
+    padding: 10px 0;
+    font-weight: 600;
+    color: #E4B350;
+    transition: .5s;
+}
+.transparency-content h6:hover{
+    color: #000;
+}
+/* contact-about-section-end */
+
+
+/* country-section-start */
+.section-country {
+    padding: 80px 0px;
+}
+.country-img{
+    width: 100%;
+}
+
+.country-img img{
+    max-width: 150px;
+}
+/* country-section-end */
+
+
+
+  /* section-country-2-start */
+  .country-top-content h5{
+    font-size: 18px;
+    color: #36BA90;
+    text-align: center;
+    font-weight: 600;
+  }
+  .country-top-content h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .country-top-content p{
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 80px 0;
+    color: #8a8686;
+    font-weight: 500;
+  }
+  
+  /* section-country-2-end */
+
+  /* section-office-start */
+.section-office{
+    padding: 50px 0;
+}
+.office-top-content{
+    text-align: center;
+    padding: 20px 0;
+}
+.office-top-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #36BA90;
+}
+.office-top-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+  /* section-office-end */
+  
+  
+
+@media screen and (max-width: 576px){
+    .contact-top-content h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .contact-top-content p{
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .contact-box-1 {
+        padding: 30px;
+    }
+    .contact-box-2 {
+        padding: 30px;
+    }
+    .country-top-content h2 {
+        font-size: 30px
+    }
+    .office-top-content h2 {
+        font-size: 38px
+    }
+
+}
