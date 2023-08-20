@@ -580,7 +580,7 @@ padding: 15px 85px 10px 60px;
 
 /* section-footer-start */
 .section-footer{
-    padding: 80px 0px 20px 0;
+    padding: 80px 0px;
     background: url(	https://toka.b-cdn.net/wp-content/uploads/2022/02/bg-rypto.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -598,12 +598,13 @@ padding: 15px 85px 10px 60px;
     padding: 10px 0;
     color: #5c5a5a;
 }
-.footer-list li{
-    font-size: 18px;
+.footer-list li {
     line-height: 2.5;
-    font-size: 15px;
-    color: #5c5a5a;
+    font-size: 16px;
+    color: rgb(92, 90, 90);
+    font-weight: 600;
 }
+
 .footer-list p i{
     color: #3FBD96;
 }
@@ -623,7 +624,11 @@ padding: 15px 85px 10px 60px;
     border: none;
     background-color: #ddd;
     padding: 15px 10px;
-    border-radius: 50px;
+    border-radius: 50px;    
+}
+.form-wrap input:focus{
+    outline: 0;
+    border: 1px solid #36BA90;
 }
 .footer-btn{
     border: none;
@@ -937,7 +942,7 @@ padding: 15px 85px 10px 60px;
         font-size: 18px;
     }
     .section-footer {
-        padding: 80px 50px;
+        padding: 50px 30px;
     }
     .footer-btn{
         margin-top: 10px;
@@ -1047,7 +1052,7 @@ padding: 15px 85px 10px 60px;
 
 /* about-section-start */
 .about-section{
-    padding: 180px 0;
+    padding: 180px 0 50px 0;
 }
 .about-top-content h5{
     text-transform: uppercase;
@@ -1448,7 +1453,7 @@ padding: 15px 85px 10px 60px;
 .team-member i{
     font-size: 20px;
     margin: 10px;
-    background-color: #000;
+    background-color: #212529;
     color: #fff;
     padding: 5px 10px;
     border-radius: 50%;
